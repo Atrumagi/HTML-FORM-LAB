@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    background: #f7f7f7;
+    color: #888888;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.contact-card {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    background: #ffffff;
+}
+
+h1 {
+    margin: 0 0 10px;
+    color: #888888;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.contact-card p {
+    margin: 0 0 25px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 7px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    color: #555555;
+    font: inherit;
+}
+
+textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 22px;
+    border: 0;
+    border-radius: 3px;
+    background: #e27575;
+    color: #ffffff;
+    font: inherit;
+    cursor: pointer;
+}
